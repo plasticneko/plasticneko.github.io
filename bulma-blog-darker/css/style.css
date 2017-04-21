@@ -93,10 +93,6 @@ a.nav-item:hover  {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
 }
 
-.card-content-header a {
-    color: whitesmoke;
-}
-
 .card-content-header .title {
     color: whitesmoke;
 }
@@ -149,4 +145,27 @@ a.nav-item:hover  {
     padding-top: 50px;
 }
 
+/* comments block */
+.comments-content {
+    background-color: #161c1c;
+}
 
+.comments-wrapper p {
+    color: whitesmoke;
+}
+
+.comments-wrapper strong {
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.comments-wrapper a {
+    color: #dd7325;
+}
+
+/* input select  */
+input:focus, textarea:focus, input[type]:focus {
+    box-shadow: 0 0 5px #719ECE;
+    border: 1px;
+    outline: none !important;
+}
