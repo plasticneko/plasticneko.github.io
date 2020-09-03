@@ -4,6 +4,10 @@ const colors = [
   "rgb(99, 206, 196)",
   "rgb(135, 110, 223)",
   "rgb(219, 3, 169)",
+  "rgb(143, 207, 209)",
+  "rgb(223, 94, 136)",
+  "rgb(246, 171, 108)",
+  "rgb(246, 239, 166)"
 ];
 
 setTimeout(() => {
@@ -23,7 +27,7 @@ function setDate() {
 
   console.log(`it's been ${days} days, you square.`);
 
-  document.getElementById("text").innerHTML = `\u{1F595} <br/> go away pls`;
+  document.getElementById("text").innerHTML = `\u{1F624} <br/> you can't brainwash me anymore, freedom is too sweet`;
 }
 
 function setBackground() {
