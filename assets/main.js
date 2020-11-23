@@ -14,10 +14,6 @@ setTimeout(() => {
   setDate();
 }, 500);
 
-setInterval(() => {
-  setBackground();
-}, 500);
-
 function setDate() {
   const date = new Date("2019/11/30");
 
@@ -27,7 +23,7 @@ function setDate() {
 
   console.log(`it's been ${days} days, you square.`);
 
-  document.getElementById("text").innerHTML = `\u{1F624} <br/> you can't brainwash me anymore, freedom is too sweet`;
+  document.getElementById("text").innerHTML = `i think im losing my mind`;
 }
 
 function setBackground() {
